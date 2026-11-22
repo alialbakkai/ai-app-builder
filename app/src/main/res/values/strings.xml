@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">تسميع</string>
+    <string name="app_subtitle">المساعد الذكي للتسميع برواية قالون عن نافع</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">التسميع</string>
+    <string name="nav_review">المراجعة والسجل</string>
+    <string name="nav_settings">الإعدادات والمصادر</string>
+
+    <!-- Recitation Modes -->
+    <string name="mode_free_title">التسميع الحر</string>
+    <string name="mode_free_desc">يتعرف التطبيق تلقائيًا على السورة والآية أثناء تلاوتك</string>
+    <string name="mode_surah_title">تسميع سورة محددة</string>
+    <string name="mode_surah_desc">اختر أي سورة من المصحف الشريف برواية قالون</string>
+    <string name="mode_juz_hizb_title">تسميع جزء أو حزب</string>
+    <string name="mode_juz_hizb_desc">مراجعة مركزة لجزء (١–٣٠) أو حزب (١–٦٠)</string>
+    <string name="mode_hidden_title">التسميع المخفي</string>
+    <string name="mode_hidden_desc">إخفاء الكلمات وإظهارها تدريجيًا فور قراءتها</string>
+    <string name="mode_training_title">وضع التدريب</string>
+    <string name="mode_training_desc">عرض المصحف كاملًا ومتابعة الكلمات لحظيًا</string>
+    <string name="mode_errors_title">مراجعة الأخطاء</string>
+    <string name="mode_errors_desc">تسميع الآيات المتكرر فيها الخطأ وفق التكرار المتباعد</string>
+
+    <!-- Recitation States -->
+    <string name="state_idle">جاهز للتسميع</string>
+    <string name="state_listening">يستمع لتلاوتك...</string>
+    <string name="state_matching">جارٍ مطابقة القراءة...</string>
+    <string name="state_correct">تلاوة صحيحة</string>
+    <string name="state_suspected">لم تتضح القراءة، أعد المحاولة بهدوء</string>
+    <string name="state_confirmed_error">تم رصد موضع يحتاج تصحيحًا</string>
+    <string name="state_waiting_correction">بانتظار قراءة الكلمة الصحيحة</string>
+    <string name="state_resuming">تم التصحيح، تفضل بالمتابعة</string>
+    <string name="state_completed">أتممت الجلسة بنجاح</string>
+
+    <!-- Controls & Actions -->
+    <string name="action_start_recitation">بدء التسميع</string>
+    <string name="action_pause">إيقاف مؤقت</string>
+    <string name="action_resume">استئناف</string>
+    <string name="action_repeat_ayah">إعادة الآية</string>
+    <string name="action_hint">تلميح</string>
+    <string name="action_reference_audio">التلاوة المرجعية</string>
+    <string name="action_stop_audio">إيقاف التلاوة</string>
+    <string name="action_finish_session">إنهاء وعرض التقرير</string>
+    <string name="action_font_increase">تكبير الخط</string>
+    <string name="action_font_decrease">تصغير الخط</string>
+    <string name="action_auto_scroll">التمرير التلقائي</string>
+    <string name="action_grant_mic">السماح بالميكروفون</string>
+
+    <!-- Accessibility & Status -->
+    <string name="mic_permission_title">إذن الميكروفون مطلوب للتسميع</string>
+    <string name="mic_permission_rationale">يستمع التطبيق لصوتك لحظيًا لمتابعة الآيات فقط، ولا يحفظ أي تسجيلات صوتية على الجهاز افتراضيًا.</string>
+    <string name="cloud_verification_notice">التحقق الذكي السحابي مفعّل لحالات الشك عبر Firebase AI Logic</string>
+    <string name="offline_local_notice">الوضع المحلي: المتابعة الحتمية تعمل دون اتصال</string>
+    <string name="mushaf_verified_badge">نص مصحف قالون موثق (SHA-256 سليم)</string>
+    <string name="disclaimer_not_muqri">ملاحظة: التطبيق مساعد للتسميع والمراجعة ولا يغني عن التلقي والمشافهة على مقرئ متقن.</string>
+</resources>

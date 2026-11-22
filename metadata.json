@@ -1,0 +1,6 @@
+{
+  "name": "تسميع",
+  "description": "تطبيق التسميع الذكي للقرآن الكريم برواية قالون عن نافع",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
